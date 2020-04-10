@@ -11,7 +11,7 @@ This is a more or less complicated program written obviously in JAVA, its main p
 ## Expansion :
 
 you can contribute in this program if you want , and i will be glad to receive you ideas , from the things we can add :
-- a panel where the user .
+- a panel where the user can edit the orders graphically .
 - the integration of more functions , or variable concepts.
 
 ## Leave us a feedback.
