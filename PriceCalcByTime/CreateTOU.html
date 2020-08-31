@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TOU Tree</title>
+</head>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="code.js"></script>
+<style type="text/css">
+	
+	.select{
+        cursor : pointer;
+	}
+	
+	.select:hover{
+        color: blue;
+	}
+	
+	ul, #myUL {
+		padding : 0px 0px 0px 10px;
+		list-style-type: none;
+	}
+
+	#myUL {
+	  margin: 0;
+	  padding: 0;
+	}
+
+	.caret, .caretI {
+	  cursor: pointer;
+	  -webkit-user-select: none; /* Safari 3.1+ */
+	  -moz-user-select: none; /* Firefox 2+ */
+	  -ms-user-select: none; /* IE 10+ */
+	  user-select: none;
+	}
+
+	.caret::before, .caretI::before {
+	  content: "\25B6";
+	  color: black;
+	  display: inline-block;
+	  margin-right: 6px;
+	}
+
+	.caret-down::before, .caret-downI::before {
+	  -ms-transform: rotate(90deg); /* IE 9 */
+	  -webkit-transform: rotate(90deg); /* Safari */'
+	  transform: rotate(90deg);  
+	}
+
+	.nested, .nestedI {
+	  display: none;
+	}
+
+	.active , .activeI{
+	  display: block;
+	}
+</style>
+<body>
+	<fieldset style="border-radius:5px;margin:9px;">
+		<span style="margin:1%;"><input type="file" style="border : 1px solid blue;border-radius:5px;" id="file"/></span>
+		<span style="margin:1%;"><input type="button" onclick="readFile()" value="load the chosen file"/></span>
+		<span style="margin:2%;"><input type="button" onclick="setJSONname()" value="Create New File"/></span>
+		<span style="margin:2%;"><input type="button" onclick="saveFile()" value="Export File" ></span>
+	</fieldset>
+	<div>
+		<div  style="float:left;width:100%;height:500px;background-color:#0041C2;">
+			<div style="background-color:#ADD8E6;float:left;width:25%;height:476px;padding:5px 5px 5px 5px;margin:5px 5px 5px 5px">
+				<h2><strong>TOU tree</strong></h2>
+				<ul id="myUL"></ul>
+			</div>
+			<div id="container" style="float:right;width:70.3%;height:476px;background-color:white;padding:5px 5px 5px 5px;margin:5px 5px 5px 5px"></div>
+		</div>
+	</div>
+</body>
