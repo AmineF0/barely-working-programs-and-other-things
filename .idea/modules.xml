@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ant/Ant.iml" filepath="$PROJECT_DIR$/Ant/Ant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bird/Bird.iml" filepath="$PROJECT_DIR$/Bird/Bird.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataCoronaVisualization/DataCoronaVisualization.iml" filepath="$PROJECT_DIR$/DataCoronaVisualization/DataCoronaVisualization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlagQuiz/FlagQuiz.iml" filepath="$PROJECT_DIR$/FlagQuiz/FlagQuiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandomChoiceAnimation/RandomChoiceAnimation.iml" filepath="$PROJECT_DIR$/RandomChoiceAnimation/RandomChoiceAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Snake/Snake.iml" filepath="$PROJECT_DIR$/Snake/Snake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Turtle/Turtle.iml" filepath="$PROJECT_DIR$/Turtle/Turtle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/barely-working-programs-and-other-things.iml" filepath="$PROJECT_DIR$/.idea/barely-working-programs-and-other-things.iml" />
+    </modules>
+  </component>
+</project>

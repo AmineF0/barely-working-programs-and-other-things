@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="turtlete">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Turtle/jar executable/turtlete.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

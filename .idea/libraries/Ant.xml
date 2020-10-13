@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Ant">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ant/excecutable jar/ant/Ant.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

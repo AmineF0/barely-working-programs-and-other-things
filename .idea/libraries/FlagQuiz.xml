@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FlagQuiz">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FlagQuiz/FlagQuiz.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
